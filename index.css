@@ -1,0 +1,93 @@
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+}
+.logo{
+    width: 23%;
+    padding: 1%;
+}
+nav{
+    width: 73%;
+    padding: 1%;
+}
+ul{
+    width: 50%;
+    margin-left: auto;
+}
+.logo{
+    text-align: center;
+}
+.heroImg{
+    align-items: left;
+    height: 600px;
+    padding: 25px;
+}
+.content{
+    width: 500px;
+    margin: 0 auto;
+}
+footer{
+    background-color: #373738;
+    padding: center;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    padding: center;
+}
+html{
+    background-color: #E6E9E6;
+}
+h1{
+    color: #B9BDB8;
+    text-align: center;
+}
+h2{
+    color:#B9BDB8;
+    text-align: center;
+}
+
+.flexContainer{
+    display: flex;
+    width: 33%;
+    margin:auto;
+    padding: 15px;
+    flex-direction: column;
+    justify-content: right;
+    border: 3px #B9BDB8;
+    align-content: right;
+}
+
+.workGrid{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    padding: 30px;
+}
+
+.buhi{
+    grid-area: buhi;
+}
+
+.chaser{
+    grid-area: chaser;
+}
+
+@media only screen and (max-width: 600px;) {
+    .flexContainer{
+        flex-direction: column;
+    }
+    .buhi{
+        width: 100%;
+    }
+    .chaser{
+        width: 100%;
+    }
+    #workGrid{
+        grid-template-rows: 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "buhi"
+            "chaser";
+    }
+}
