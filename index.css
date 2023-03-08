@@ -22,9 +22,17 @@ ul{
     height: 600px;
     padding: 25px;
 }
+
+.me{
+    align-items: left;
+    height: 300px;
+    padding: 25px;
+}
+
 .content{
     width: 500px;
     margin: 0 auto;
+    align-items: right;
 }
 footer{
     background-color: #373738;
@@ -40,11 +48,11 @@ html{
 }
 h1{
     color: #B9BDB8;
-    text-align: center;
+    text-align: left;
 }
 h2{
     color:#B9BDB8;
-    text-align: center;
+    text-align: left;
 }
 
 /* My UX Skills Section */
