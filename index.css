@@ -128,8 +128,10 @@ h2{
     text-align: center;
     color:#EBEBEB;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
-.tabNav li.active{
+.tabNav li.active,
+.tavNav li:hover{
     background:#808d7d;
 }
 .tabContainerArea{}

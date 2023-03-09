@@ -9,5 +9,7 @@ $(document).ready(function() {
         index= $(this).index();
         $('.tabNav li').removeClass('active');
         $(this).addClass('active');
+        $('.tabContainer').hide();
+        $('.tabContainer').eq(index).show();
     });
 });
