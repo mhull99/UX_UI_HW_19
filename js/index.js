@@ -6,10 +6,10 @@ $(document).ready(function(){
 
     $(".tabNav:first").click(function(event){
         index= $(this).index();
-        $(".tabNav li").removeClass('active');
-        $(this).addClass('active');
-        $('.tabContainer').hide();
-        $('.tabContainer').eq(index).show();
+        $(".tabNav li").removeClass("active");
+        $(this).addClass("active");
+        $(".tabContainer").hide();
+        $(".tabContainer").eq(index).show();
     });
 });
 
