@@ -1,7 +1,6 @@
-
 console.log("Your index.js file is loaded correctly!");
 
-$(document).ready(function() {
+$(document).ready(function(){
     $('.tabContainer:first').show();
     $('.tabNav:first').addClass('.active');
 
