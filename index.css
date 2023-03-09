@@ -9,6 +9,7 @@
 nav{
     width: 73%;
     padding: 1%;
+    align-items: flex-start;
 }
 ul{
     width: 50%;
@@ -108,3 +109,33 @@ h2{
   .content3 {
     grid-area: content3;
   }
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.tabNav{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+.tabNav li{
+    display: inline-block;
+    padding: 5px 15px;
+    background:#B9BDB8;
+    min-width: 100px;
+    text-align: center;
+    color:#EBEBEB;
+    cursor: pointer;
+}
+.tabNav li.active{
+    background:#808d7d;
+}
+.tabContainerArea{}
+.tabConatiner{
+    padding: 10px;
+    background:#B9BDB8;
+    color:#EBEBEB;
+    display: none;
+}
